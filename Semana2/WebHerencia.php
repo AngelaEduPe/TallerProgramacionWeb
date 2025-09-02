@@ -1,6 +1,6 @@
 <?php
-require_once 'Curso:Presencial.php';
-require_once 'CursoVirtual.php';
+require_once 'Curso_Presencial.php';
+require_once 'Curso_Virtual.php';
 
 // Crear instancias de los cursos
 $curso1 = new CursoPresencial("Programacion en JAVA", 350, "Av. Los Ingenieros 123 - Lima");

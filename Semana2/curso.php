@@ -10,7 +10,7 @@ class Curso{
     }
 
     public function mostrarInfo() {
-        echo "Curso: {$this->nombre} - Precio: <S> {$this->precio}<br>";
+        echo "Curso: {$this->nombre} - Precio: S/ {$this->precio}<br>";
     }
 }
 ?>

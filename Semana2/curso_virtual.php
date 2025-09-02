@@ -11,7 +11,7 @@ class CursoVirtual extends Curso {
 
     public function mostrarInfo() {
         parent::mostrarInfo();
-        echo "Modalidad: Virtual - ]Plataforma: {$this->plataforma}<br>";
+        echo "Modalidad: Virtual - Plataforma: {$this->plataforma}<br>";
     }
 }
 ?>
